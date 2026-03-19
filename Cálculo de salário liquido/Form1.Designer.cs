@@ -93,7 +93,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(267, 32);
-            this.textBox1.TabIndex = 4;
+            this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
@@ -102,7 +102,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(267, 32);
-            this.textBox2.TabIndex = 5;
+            this.textBox2.TabIndex = 2;
             // 
             // textBox3
             // 
@@ -110,14 +110,14 @@
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(267, 32);
-            this.textBox3.TabIndex = 6;
+            this.textBox3.TabIndex = 3;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(739, 156);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 43);
-            this.button1.TabIndex = 7;
+            this.button1.TabIndex = 4;
             this.button1.Text = "CALCULAR";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -199,7 +199,7 @@
             this.button3.Location = new System.Drawing.Point(739, 267);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(116, 43);
-            this.button3.TabIndex = 9;
+            this.button3.TabIndex = 6;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -210,7 +210,7 @@
             this.button2.Location = new System.Drawing.Point(739, 213);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(116, 43);
-            this.button2.TabIndex = 8;
+            this.button2.TabIndex = 5;
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -220,6 +220,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Peru;
+            this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1058, 729);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
