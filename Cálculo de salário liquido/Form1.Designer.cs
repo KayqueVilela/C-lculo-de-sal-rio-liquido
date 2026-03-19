@@ -94,10 +94,11 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(267, 32);
             this.textBox1.TabIndex = 4;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(351, 264);
+            this.textBox2.Location = new System.Drawing.Point(332, 213);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(267, 32);
@@ -105,7 +106,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(332, 213);
+            this.textBox3.Location = new System.Drawing.Point(351, 264);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(267, 32);
@@ -200,6 +201,7 @@
             this.button3.Size = new System.Drawing.Size(116, 43);
             this.button3.TabIndex = 9;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -211,6 +213,7 @@
             this.button2.TabIndex = 8;
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
