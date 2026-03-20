@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Cálculo_de_salário_liquido
 {
-    public partial class Form1 : Form
+    public partial class exercicio3 : Form
     {
-        public Form1()
+        public exercicio3()
         {
             InitializeComponent();
         }

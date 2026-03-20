@@ -1,6 +1,6 @@
 ﻿namespace Cálculo_de_salário_liquido
 {
-    partial class Form1
+    partial class exercicio3
     {
         /// <summary>
         /// Variável de designer necessária.
