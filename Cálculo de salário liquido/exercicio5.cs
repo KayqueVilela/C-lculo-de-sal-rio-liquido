@@ -22,8 +22,19 @@ namespace Cálculo_de_salário_liquido
             float Celsius;
             float Fahrenheit;
             Fahrenheit = float.Parse(textBox1.Text);
-            Celsius = (Fahrenheit - 32) * (5 / 9);
-            label3.Text = "" + Celsius;2
+            Celsius = (Fahrenheit - 32) * (5f / 9f);
+            label3.Text = "" + Celsius;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label3.Text = "";
+            textBox1.Clear();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
