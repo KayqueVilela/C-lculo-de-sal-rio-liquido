@@ -82,6 +82,12 @@
     <Compile Include="exercicio6.Designer.cs">
       <DependentUpon>exercicio6.cs</DependentUpon>
     </Compile>
+    <Compile Include="exercicio7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercicio7.Designer.cs">
+      <DependentUpon>exercicio7.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="exercicio1.resx">
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="exercicio6.resx">
       <DependentUpon>exercicio6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exercicio7.resx">
+      <DependentUpon>exercicio7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -130,6 +139,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\signout_106525.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

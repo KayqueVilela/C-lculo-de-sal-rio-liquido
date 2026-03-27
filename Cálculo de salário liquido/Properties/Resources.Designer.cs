@@ -63,6 +63,16 @@ namespace Cálculo_de_salário_liquido.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__1_ {
+            get {
+                object obj = ResourceManager.GetObject("images (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_orange_ccleaner_clean_icon_134365 {
             get {
                 object obj = ResourceManager.GetObject("logo_orange_ccleaner_clean_icon_134365", resourceCulture);
