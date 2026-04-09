@@ -16,5 +16,10 @@ namespace Cálculo_de_salário_liquido
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

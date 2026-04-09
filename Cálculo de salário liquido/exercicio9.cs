@@ -38,12 +38,43 @@ namespace Cálculo_de_salário_liquido
             float acm = a * c;
             float ada = a + d;
             float adm = a * d;
-            label6.Text = +Environment.NewLine +"ADIÇÃO:" + aba +" " + "MULTIPLICAÇÃO: " +abm;
+            float bca = b + c;
+            float bcm = b * c;
+            float bda = b + d;
+            float bdm = b * d;
+            float cda = c + d;
+            float cdm = c * d;
+            label6.Text = "                                                                              " +"ADIÇÃO:" + aba +" " + "MULTIPLICAÇÃO: " +abm;
+            label7.Text = "                                                                              " + "ADIÇÃO:" + aca + " " + "MULTIPLICAÇÃO: " + acm;
+            label8.Text = "                                                                              " + "ADIÇÃO:" + ada + " " + "MULTIPLICAÇÃO: " + adm;
+            label9.Text = "                                                                              " + "ADIÇÃO:" + bca + " " + "MULTIPLICAÇÃO: " + bcm;
+            label10.Text = "                                                                              " + "ADIÇÃO:" + bda + " " + "MULTIPLICAÇÃO: " + bdm;
+            label17.Text = "                                                                              " + "ADIÇÃO:" + cda + " " + "MULTIPLICAÇÃO: " + cdm;
+
         }
 
         private void label6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            label6.Text = "";
+            label7.Text = "";
+            label8.Text = "";
+            label9.Text = "";
+            label10.Text = "";
+            label17.Text = "";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
