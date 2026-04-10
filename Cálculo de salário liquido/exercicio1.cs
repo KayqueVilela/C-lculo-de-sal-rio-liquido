@@ -42,5 +42,10 @@ namespace Cálculo_de_salário_liquido
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

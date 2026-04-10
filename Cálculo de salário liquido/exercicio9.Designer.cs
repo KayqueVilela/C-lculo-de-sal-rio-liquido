@@ -54,6 +54,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -300,6 +301,16 @@
     "A PROPRIEDADE DISTRIBUTIVA";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(475, 549);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 26;
+            this.button4.Text = "VOLTAR";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // exercicio9
             // 
             this.AcceptButton = this.button1;
@@ -308,6 +319,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1021, 637);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label16);
@@ -369,5 +381,6 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button button4;
     }
 }

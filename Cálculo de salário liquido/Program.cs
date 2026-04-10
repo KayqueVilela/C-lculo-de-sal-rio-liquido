@@ -16,12 +16,7 @@ namespace Cálculo_de_salário_liquido
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new exercicio9());
-            Application.Run(new exercicio1());
-            Application.Run(new exercicio2());
-            Application.Run(new exercicio3());
-            Application.Run(new exercicio4());
-            Application.Run(new exercicio5());
+            Application.Run(new Form1());
         }
     }
 }

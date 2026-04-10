@@ -41,6 +41,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -166,12 +167,23 @@
     "O, SENDO COMPRIMENTO, LARGURA E ALTURA";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(607, 542);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 13;
+            this.button4.Text = "VOLTAR";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // exercicio10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(874, 629);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -186,7 +198,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "exercicio10";
-            this.Text = "VOLUME DA CAIXA";
+            this.Text = "B";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -207,5 +219,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button4;
     }
 }

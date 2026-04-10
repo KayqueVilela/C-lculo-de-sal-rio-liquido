@@ -40,6 +40,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -92,6 +93,7 @@
             // 
             // button3
             // 
+            this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button3.Location = new System.Drawing.Point(465, 241);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(115, 35);
@@ -157,6 +159,16 @@
     "TEIRO DIGITADO PELO USUÁRIO";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(357, 538);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 14;
+            this.button4.Text = "VOLTAR";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // exercicio11
             // 
             this.AcceptButton = this.button1;
@@ -165,6 +177,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(854, 629);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label7);
@@ -198,5 +211,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button4;
     }
 }

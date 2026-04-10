@@ -118,12 +118,6 @@
     <Compile Include="exercicio2.Designer.cs">
       <DependentUpon>exercicio2.cs</DependentUpon>
     </Compile>
-    <Compile Include="exercicio20.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="exercicio20.Designer.cs">
-      <DependentUpon>exercicio20.cs</DependentUpon>
-    </Compile>
     <Compile Include="exercicio21.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +166,12 @@
     <Compile Include="exercicio9.Designer.cs">
       <DependentUpon>exercicio9.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="exercicio1.resx">
@@ -210,9 +210,6 @@
     <EmbeddedResource Include="exercicio2.resx">
       <DependentUpon>exercicio2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="exercicio20.resx">
-      <DependentUpon>exercicio20.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="exercicio21.resx">
       <DependentUpon>exercicio21.cs</DependentUpon>
     </EmbeddedResource>
@@ -236,6 +233,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="exercicio9.resx">
       <DependentUpon>exercicio9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

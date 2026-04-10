@@ -37,6 +37,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -90,6 +91,7 @@
             // 
             // button3
             // 
+            this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button3.Location = new System.Drawing.Point(642, 118);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(115, 37);
@@ -125,6 +127,16 @@
             this.label5.Text = "O PROGRAMA BUSCA FAZER O USUÁRIO DESCOBRIR O SALÁRIO LIQUIDO APÓS OS DESCONTOS";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(411, 395);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "VOLTAR";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // exercicio18
             // 
             this.AcceptButton = this.button1;
@@ -133,6 +145,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -160,5 +173,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button4;
     }
 }

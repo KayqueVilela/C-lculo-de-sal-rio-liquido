@@ -25,5 +25,10 @@ namespace Cálculo_de_salário_liquido
             sobrenome = textBox2.Text;
             label4.Text = "SEU NOME COMPLETO É: " + nome + " "+sobrenome;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

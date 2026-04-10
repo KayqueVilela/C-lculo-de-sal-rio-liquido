@@ -29,5 +29,10 @@ namespace Cálculo_de_salário_liquido
             litros_usados = distancia / 12;
             label4.Text = ""+litros_usados;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

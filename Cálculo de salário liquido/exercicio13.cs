@@ -39,5 +39,10 @@ namespace Cálculo_de_salário_liquido
             textBox1.Clear();
             label4.Text = "";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

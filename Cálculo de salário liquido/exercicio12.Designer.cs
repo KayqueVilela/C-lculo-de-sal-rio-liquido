@@ -39,6 +39,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -109,6 +110,7 @@
             // 
             // button3
             // 
+            this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button3.Location = new System.Drawing.Point(685, 211);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(118, 33);
@@ -147,6 +149,16 @@
     "DO QUADRADO DOS VALORES LIDOS.";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(428, 561);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "VOLTAR";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // exercicio12
             // 
             this.AcceptButton = this.button1;
@@ -155,6 +167,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(849, 625);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -186,5 +199,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button4;
     }
 }
