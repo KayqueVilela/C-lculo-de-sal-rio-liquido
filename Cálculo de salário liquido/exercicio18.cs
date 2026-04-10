@@ -10,37 +10,29 @@ using System.Windows.Forms;
 
 namespace Cálculo_de_salário_liquido
 {
-    public partial class exercicio1 : Form
+    public partial class exercicio18 : Form
     {
-        public exercicio1()
+        public exercicio18()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            float raio;
-            raio = float.Parse(textBox1.Text);
-            float area;
-            double pi = 3.14159;
-            area = (float)(pi * raio*2);
-            label3.Text = "A área é: "+ area;
-        }
+            float salbruto;
+            salbruto = float.Parse(textBox1.Text);
+            float desc1 = salbruto * 0.10f;
+            float resto = salbruto - desc1;
+            float desc2 = resto * 0.05f;
+            float salliq = resto - desc2;
+            label3.Text = "O salário líquido é: " + salliq; 
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            label3.Text = "";
             textBox1.Clear();
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
+            label3.Text = "";
         }
     }
 }

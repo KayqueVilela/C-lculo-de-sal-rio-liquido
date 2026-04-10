@@ -53,6 +53,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -288,6 +289,17 @@
             this.label18.TabIndex = 24;
             this.label18.Text = "DESCRIÇÃO DO PROGRAMA";
             // 
+            // label19
+            // 
+            this.label19.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label19.Location = new System.Drawing.Point(670, 151);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(236, 105);
+            this.label19.TabIndex = 25;
+            this.label19.Text = "O PROGRAMA BUSCA FAZER A ADIÇÃO E MULTIPLICAÇÃO FAZENDO  BASEANDO NA UTILIZAÇÃO D" +
+    "A PROPRIEDADE DISTRIBUTIVA";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // exercicio9
             // 
             this.AcceptButton = this.button1;
@@ -296,6 +308,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1021, 637);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label17);
@@ -355,5 +368,6 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
     }
 }

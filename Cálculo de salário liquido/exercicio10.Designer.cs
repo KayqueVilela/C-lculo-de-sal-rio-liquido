@@ -39,6 +39,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -138,10 +140,31 @@
             // label5
             // 
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label5.Location = new System.Drawing.Point(266, 379);
+            this.label5.Location = new System.Drawing.Point(50, 361);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(365, 154);
             this.label5.TabIndex = 10;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Showcard Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(594, 327);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(179, 17);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "DESCRIÇÃO DO PROGRAMA";
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label7.Location = new System.Drawing.Point(575, 371);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(216, 94);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "O PROGRAMA BUSCA DESCOBRIR O VOLUME DE UMA CAIXA, PEDINDO 3 VALORES PARA O USUÁRI" +
+    "O, SENDO COMPRIMENTO, LARGURA E ALTURA";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // exercicio10
             // 
@@ -149,6 +172,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(874, 629);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -180,5 +205,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Cálculo_de_salário_liquido
 {
-    public partial class exercicio13 : Form
+    public partial class exercicio14 : Form
     {
-        public exercicio13()
+        public exercicio14()
         {
             InitializeComponent();
         }
@@ -20,24 +20,23 @@ namespace Cálculo_de_salário_liquido
         private void button1_Click(object sender, EventArgs e)
         {
             int a;
-            a = int.Parse(textBox1.Text);
             int b;
+            a = int.Parse(textBox1.Text);
             b = int.Parse(textBox2.Text);
-            int res1 = a * a;
-            int res2 = b * b;   
-            label4.Text = "O resultado do Quadrado do primeiro valor lido é: " + res1 +Environment.NewLine + "O resultado do Quadrado do segundo valor lido é: " + res2;
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+            int media = (a + b) / 2;
+            label4.Text = "O resultado é: " + media;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
-            textBox1.Clear();
+            textBox2.Clear();
             label4.Text = "";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

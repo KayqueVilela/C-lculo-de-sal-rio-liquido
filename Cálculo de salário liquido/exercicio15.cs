@@ -10,29 +10,27 @@ using System.Windows.Forms;
 
 namespace Cálculo_de_salário_liquido
 {
-    public partial class exercicio12 : Form
+    public partial class exercicio15 : Form
     {
-        public exercicio12()
+        public exercicio15()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int a;
-            int b; 
-            a = int.Parse(textBox1.Text);
-            b = int.Parse(textBox2.Text);
-            int soma = a + b;
-            int res = soma * soma;
-            label4.Text = "O resultado é: " + res;
+            int numa;
+            int numb;
+            numa = int.Parse(textBox1.Text);
+            numb = int.Parse(textBox2.Text);
+            label4.Text = "O primeiro valor é: "+numb+Environment.NewLine+" e o segundo valor é: "+numa;
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "";
-            textBox2.Text = "";
+            textBox1.Clear();   
+            textBox2.Clear();
             label4.Text = "";
         }
 

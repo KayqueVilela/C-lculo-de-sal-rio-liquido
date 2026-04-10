@@ -45,6 +45,8 @@
             this.label11 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -196,6 +198,7 @@
             // 
             this.button3.BackgroundImage = global::Cálculo_de_salário_liquido.Properties.Resources.signout_106525;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button3.Location = new System.Drawing.Point(739, 267);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(116, 43);
@@ -215,13 +218,35 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Showcard Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(721, 411);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(179, 17);
+            this.label12.TabIndex = 17;
+            this.label12.Text = "DESCRIÇÃO DO PROGRAMA";
+            // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label13.Location = new System.Drawing.Point(721, 457);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(188, 94);
+            this.label13.TabIndex = 18;
+            this.label13.Text = "O PROGRAMA BUSCA MOSTRAR O SALÁRIO QUE O TRABALHADOR VAI RECEBER";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // exercicio3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Peru;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1058, 729);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -239,7 +264,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "exercicio3";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -265,6 +290,8 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
     }
 }
 

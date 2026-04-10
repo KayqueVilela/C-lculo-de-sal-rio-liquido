@@ -76,11 +76,53 @@
     <Compile Include="exercicio13.Designer.cs">
       <DependentUpon>exercicio13.cs</DependentUpon>
     </Compile>
+    <Compile Include="exercicio14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercicio14.Designer.cs">
+      <DependentUpon>exercicio14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exercicio15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercicio15.Designer.cs">
+      <DependentUpon>exercicio15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exercicio16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercicio16.Designer.cs">
+      <DependentUpon>exercicio16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exercicio17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercicio17.Designer.cs">
+      <DependentUpon>exercicio17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exercicio18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercicio18.Designer.cs">
+      <DependentUpon>exercicio18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exercicio19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercicio19.Designer.cs">
+      <DependentUpon>exercicio19.cs</DependentUpon>
+    </Compile>
     <Compile Include="exercicio2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="exercicio2.Designer.cs">
       <DependentUpon>exercicio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exercicio20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercicio20.Designer.cs">
+      <DependentUpon>exercicio20.cs</DependentUpon>
     </Compile>
     <Compile Include="exercicio21.cs">
       <SubType>Form</SubType>
@@ -147,8 +189,29 @@
     <EmbeddedResource Include="exercicio13.resx">
       <DependentUpon>exercicio13.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="exercicio14.resx">
+      <DependentUpon>exercicio14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exercicio15.resx">
+      <DependentUpon>exercicio15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exercicio16.resx">
+      <DependentUpon>exercicio16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exercicio17.resx">
+      <DependentUpon>exercicio17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exercicio18.resx">
+      <DependentUpon>exercicio18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exercicio19.resx">
+      <DependentUpon>exercicio19.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="exercicio2.resx">
       <DependentUpon>exercicio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exercicio20.resx">
+      <DependentUpon>exercicio20.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="exercicio21.resx">
       <DependentUpon>exercicio21.cs</DependentUpon>
