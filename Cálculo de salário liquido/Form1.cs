@@ -181,5 +181,18 @@ namespace Cálculo_de_salário_liquido
             this.Hide();
             EX21.Show();
         }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            exercicio20 EX20 = new exercicio20();
+            EX20.FormClosed += (s, args) => this.Show();
+            this.Hide();
+            EX20.Show();
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
