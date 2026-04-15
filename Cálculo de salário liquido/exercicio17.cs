@@ -19,10 +19,10 @@ namespace Cálculo_de_salário_liquido
 
         private void button1_Click(object sender, EventArgs e)
         {
-            float a;
-            float b;
-            a = float.Parse(textBox1.Text);
-            b = float.Parse(textBox2.Text);
+            int a;
+            int b;
+            a = int.Parse(textBox1.Text);
+            b = int.Parse(textBox2.Text);
             float quo = a / b;
             float rest = a % b;
             label4.Text = "O resultado da divisão é: " + quo + Environment.NewLine + " O resultado do resto é: " + rest;
